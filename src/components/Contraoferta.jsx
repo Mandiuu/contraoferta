@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, MessageCircle, User, Bot, Star, Target, Briefcase, Users, Award, Settings, X, BookOpen, Lightbulb, TrendingUp, Shield } from 'lucide-react';
-
+import { Send, MessageCircle, User, Bot, Target, Briefcase, Users, Settings, X, TrendingUp, Shield } from 'lucide-react';
 const Contraoferta = () => {
   const [messages, setMessages] = useState([]);
   const [inputText, setInputText] = useState('');
